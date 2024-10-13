@@ -1,0 +1,69 @@
+.admin-dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.users-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+.user-item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px 0px #323f4b;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.user-name{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.social{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.size{
+    font-weight: bold;
+}
+
+.images-heading{
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.thumbnail{
+    height: 80px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:767px){
+    .users-list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .user-item{
+        width: 90%;
+    }
+}

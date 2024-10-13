@@ -1,0 +1,22 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .nav-bar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    list-style-type: none;
+  }
+  
